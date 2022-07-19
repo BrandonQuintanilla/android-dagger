@@ -28,6 +28,7 @@ import org.mockito.Mockito.mock
 import org.mockito.Mockito.verify
 import org.mockito.Mockito.`when` as whenever
 
+//LoginViewModel doesn't need to be reused by other classes, that's why we shouldn't annotate it with @ActivityScope
 class LoginViewModelTest {
 
     // Executes each task synchronously using Architecture Components.
